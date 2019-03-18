@@ -6,7 +6,7 @@ This small project allows you to easily execute a command into a Rancher Contain
 
 ### With the container-exec.sh script
 
-Requirements : `curl, jq, wsta`.
+Requirements : curl, [jq](https://stedolan.github.io/jq/download/), [wsta](https://github.com/esphen/wsta#installation).
 
 Usage : 
 
