@@ -23,7 +23,7 @@ $ ./container-exec.sh \
 ### With the Docker image
 
 ```
-docker run acseo/rancher-container-exec  \
+docker run acseo/rancher-container-exec /app/container-exec  \
     --rancher-public=YOUR_RANCHER_PUBLIC_KEY \
     --rancher-secret=YOUR_RANCHER_SECRETT_KEY \ 
     --rancher-host=https://YOUR_RANCHER_HOST \
