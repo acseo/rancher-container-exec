@@ -6,6 +6,7 @@ MAINTAINER  ACSEO <contact@acseo.fr>
 #
 RUN     mkdir -p /app
 COPY    container-exec.sh /app/container-exec
+RUN     chmod uog+x /app/container-exec
 
 #
 # Install utils
