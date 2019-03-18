@@ -11,7 +11,7 @@ COPY    container-exec.sh /app/container-exec
 # Install utils
 #
 RUN     apt-get update && \
-        apt-get install -yy curl jq git && \
+        apt-get install -yy curl jq && \
         rm -rf /var/lib/apt/lists/*
 #
 # Instlal wsta
